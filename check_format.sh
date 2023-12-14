@@ -1,5 +1,5 @@
 #!/bin/bash
-if grep -E 'linux|bash|github' *
+if grep -E -w 'linux|bash|github' *
 then
   echo 'correct file topic'
 else
